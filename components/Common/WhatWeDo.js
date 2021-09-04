@@ -7,6 +7,15 @@ import {
     AccordionItemButton
 } from 'react-accessible-accordion';
 
+
+const skilss = [
+    {
+        id: 1, 
+        name:  'Technology Consulting',
+        skillLevel: 95
+    }
+]
+
 const WhatWeDo = () => {
     return (
         <div className="what-we-do-area ptb-100">
@@ -18,7 +27,7 @@ const WhatWeDo = () => {
                             <h2>We Create Next Level Technology Experience</h2>
                             <p>Develop results-driven products for entrepreneurs, startups, and enterprises with a leading software development company.</p>
                             
-                            <div className="skills-item">
+                            {/* <div className="skills-item">
                                 <div className="skills-header">
                                     <h4 className="skills-title">Digital Marketing & SEO</h4>
                                     <div className="skills-percentage">
@@ -28,7 +37,7 @@ const WhatWeDo = () => {
                                 <div className="skills-bar">
                                     <div className="bar-inner"><div className="bar progress-line" data-width="95"></div></div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

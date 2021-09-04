@@ -2,7 +2,7 @@ import React from 'react';
 
 const RequestQuoteForm = () => {
     return (
-        <div className="seo-analysis-area ptb-100">
+        <div id="request-quote" className="seo-analysis-area ptb-100">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">

@@ -1,39 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { portfolios } from '../../data';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
 
 
-export const portfolios = [
-    {
-        id: 1,
-        image: '/images/durub/mobile-app.png',
-        subtitle: 'MOBILE APP',
-        title: 'Banking Mobile App',
-        desc: 'We love transforming product ideas to digital realities.',
-    },
-    {
-        id: 2,
-        image: '/images/durub/malware.png',
-        subtitle: 'IT SECURITY',
-        title: 'Protect against malwares',
-        desc: 'We love transforming product ideas to digital realities.',
-    },
-    {
-        id: 3,
-        image: '/images/durub/summer-class.png',
-        subtitle: 'E-LEARNING AND TRAINING',
-        title: 'Durubata Summer Class',
-        desc: 'We love transforming product ideas to digital realities.',
-    },
-    {
-        id: 4,
-        image: '/images/durub/i-tech.png',
-        subtitle: 'AI AND MACHINE LEARNING',
-        title: 'Durubata I-Tech ',
-        desc: 'We love transforming product ideas to digital realities.',
-    },
-]
+
 
 const options = {
     loop: true,
@@ -83,7 +55,7 @@ const CaseStudies = () => {
                 </div>
             </div>
 
-            <div className="container-fluid">
+            <div className="container">
                 {display ? <OwlCarousel 
                     className="portfolio-slides owl-carousel owl-theme"
                     {...options}
@@ -91,7 +63,7 @@ const CaseStudies = () => {
                     {
                         portfolios.map(({id, image, subtitle,title, desc}) => (
                     <div className="single-portfolio-item" key={id}>
-                        <Link href="/single-portfolio">
+                        <Link href={`/case-studies/${id}`}>
                             <a className="image d-block">
                                 <img src={image} alt="image" />
                             </a>
@@ -100,13 +72,13 @@ const CaseStudies = () => {
                         <div className="content">
                         <p className="subtitle">{subtitle}</p>
                             <h3>
-                                <Link href="/single-portfolio">
+                                <Link href="/case-studies">
                                     <a>{title}</a>
                                 </Link>
                             </h3>
                         <p className="desc">{desc}</p>
 
-                            <Link href="/single-portfolio">
+                        <Link href={`/case-studies/${id}`}>
                                 <a className="link-btn"><i className="flaticon-next-button"></i></a>
                             </Link>
                         </div>

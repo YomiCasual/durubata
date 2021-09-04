@@ -65,7 +65,12 @@ Default CSS
   --fontSize: 16px;
   --transition: .5s;
   scroll-behavior: initial;
+  /* scroll-behavior: smooth; */
 }
+
+/* html {
+  
+} */
 
 body {
   padding: 0;

@@ -10,8 +10,8 @@ const PortfolioSidebar = () => {
                             <i className='bx bx-user-pin'></i>
                         </div>
                         <span>Client:</span>
-                        <a href="https://envytheme.com/" target="_blank">EnvyTheme.com</a>
-                        <a href="#" target="_blank">ThemeForest.com</a>
+                        <a href="https://envytheme.com/" target="_blank">I-robot</a>
+                        <a href="#" target="_blank">i-robot.com</a>
                     </li>
                     <li>
                         <div className="icon">
@@ -25,7 +25,7 @@ const PortfolioSidebar = () => {
                             <i className='bx bx-purchase-tag'></i>
                         </div>
                         <span>Technologies:</span>
-                        Python, Data Science
+                        React, Redux, Typescript, Nodejs, Postgress
                     </li>
                     <li>
                         <div className="icon">
@@ -39,7 +39,7 @@ const PortfolioSidebar = () => {
                             <i className='bx bx-globe'></i>
                         </div>
                         <span>Website:</span>
-                        <a href="https://envytheme.com/" target="_blank">EnvyTheme.com</a>
+                        <a href="/" target="_blank">i-robot.com</a>
                     </li>
                 </ul>
             </div>

@@ -48,7 +48,7 @@ const FeaturedService = () => {
                             <p>{subtitle}</p>
                             <div  style={{alignSelf: 'flex-end', marginTop: 'auto!important', }}>
 
-                            <Link href="/single-services">
+                            <Link href="/services">
                                 <a className="learn-more-btn">
                                     <i className="left-icon flaticon-next-button"></i> 
                                     Learn More 

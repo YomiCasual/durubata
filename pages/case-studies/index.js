@@ -1,9 +1,10 @@
 import React from 'react';
-import NavbarStyleTwo from '../components/_App/NavbarStyleTwo';
-import PageBanner from '../components/Common/PageBanner';
-import Footer from '../components/_App/Footer';
+
 import Link from 'next/link';
-import { portfolios } from '../components/Common/CaseStudies';
+import NavbarStyleTwo from '../../components/_App/NavbarStyleTwo';
+import { portfolios } from '../../data/index';
+import PageBanner from '../../components/Common/PageBanner';
+import Footer from '../../components/_App/Footer';
 
 const CaseStudies = () => {
     return (

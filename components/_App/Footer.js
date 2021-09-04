@@ -76,22 +76,24 @@ const Footer = () => {
                         <div className="single-footer-widget pl-5">
                             <h3>Explore</h3>
                             <ul className="footer-links-list">
+                            
                                 <li>
-                                    <Link href="/">
-                                        <a>Home</a>
+                                    <Link href="/about-us">
+                                        <a>About Us</a>
                                     </Link>
-                                </li>
+                                    </li>
                                 <li>
-                                    <Link href="/about-us-1">
-                                        <a>About</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/pricing">
-                                        <a>Services</a>
+                                    <Link href="/team">
+                                        <a>Team</a>
                                     </Link>
                                 </li>
                            
+                                
+                                <li>
+                                    <Link href="/services">
+                                        <a>Services</a>
+                                    </Link>
+                                </li>
                                 <li>
                                     <Link href="/contact">
                                         <a>Contact</a>
